@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+	<title>Angular UI</title>
+	<style>
+	</style>
+	<script type="text/javascript" src="public/lib/angular/angular.min.js"></script>
+	<script type="text/javascript" src="public/lib/angular-ui-utils/ui-utils.min.js"></script>
+	<script type="text/javascript" src="public/lib/angular-sanitize/angular-sanitize.min.js"></script>
+	<script type="text/javascript" src="public/lib/angular-route/angular-route.min.js"></script>
+	<script type="text/javascript" src="app.js"></script>
+</head>
+<body ng-view>
+<p><input type="text" ng-model="val1" ui-mask={{mask1}}></p>
+
+{{val1}}
+</body>
+</html>
